@@ -26,7 +26,7 @@ const HeroSection = () => {
               {/* Logo */}
               <div className="mb-8">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/429jgfpj_FanCon_logo__3_-removebg-preview.png"
+                  src="https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/50e1tums_64778a50d3d490290c0d6576_FanCon%20%281%29.svg"
                   alt="FanCon"
                   className="h-16 object-contain"
                 />
@@ -76,13 +76,22 @@ const HeroSection = () => {
                   <Play size={20} className="group-hover:scale-110 dark-transition" />
                 </button>
               </div>
+            </div>
 
-              {/* Featured Video Preview */}
-              <div className="mt-12">
-                <p className="body-small text-[var(--text-muted)] mb-4">Latest Work Preview</p>
-                <div className="relative max-w-md">
+            {/* Right Side - Featured Work Preview */}
+            <div className="relative">
+              <div className="space-y-6">
+                <div className="text-center mb-6">
+                  <h3 className="heading-2 mb-3">Featured Work</h3>
+                  <p className="body-medium text-[var(--text-secondary)]">
+                    Latest from our elite portfolio
+                  </p>
+                </div>
+                
+                <div className="relative max-w-lg mx-auto">
                   <script src="https://fast.wistia.com/embed/6pl76z3gif.js" async type="module"></script>
                   <div 
+                    className="dark-hover dark-transition"
                     dangerouslySetInnerHTML={{
                       __html: `
                         <style>
@@ -91,6 +100,7 @@ const HeroSection = () => {
                             display: block; 
                             filter: blur(5px); 
                             padding-top:56.25%; 
+                            border-radius: 0px;
                           }
                         </style>
                         <wistia-player media-id="6pl76z3gif" aspect="1.7777777777777777"></wistia-player>
@@ -98,23 +108,10 @@ const HeroSection = () => {
                     }}
                   />
                 </div>
-              </div>
-            </div>
-
-            {/* Right Side - Clean Space */}
-            <div className="relative">
-              <div 
-                className="relative flex items-center justify-center h-96"
-                style={{ 
-                  background: 'var(--bg-overlay)',
-                  border: '1px solid var(--border-subtle)',
-                  borderRadius: '0px'
-                }}
-              >
+                
                 <div className="text-center">
-                  <div className="display-medium text-[var(--brand-primary)] mb-4">Ready to Ship</div>
-                  <p className="body-large text-[var(--text-secondary)]">
-                    Professional Web3 content that absolutely sends it
+                  <p className="body-small text-[var(--text-muted)]">
+                    Professional Web3 event coverage that absolutely sends it
                   </p>
                 </div>
               </div>
