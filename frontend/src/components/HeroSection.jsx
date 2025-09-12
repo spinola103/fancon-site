@@ -1,6 +1,5 @@
 import React from "react";
-import { ArrowRight, Play } from "lucide-react";
-import Spline from '@splinetool/react-spline';
+import { ArrowRight, Play, Zap, Shield, Globe } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId) => {
@@ -16,16 +15,25 @@ const HeroSection = () => {
       className="min-h-screen flex items-center relative overflow-hidden"
       style={{
         background: 'var(--bg-primary)',
-        paddingTop: '80px'
+        paddingTop: '120px'
       }}
     >
       <div className="w-full" style={{ padding: '0 7.6923%' }}>
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
-            <div className="space-y-8">
-              <div className="space-y-6">
-                <h1 className="display-huge">
+            <div className="space-y-10">
+              {/* Logo */}
+              <div className="mb-8">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/429jgfpj_FanCon_logo__3_-removebg-preview.png"
+                  alt="FanCon"
+                  className="h-16 object-contain"
+                />
+              </div>
+
+              <div className="space-y-8">
+                <h1 className="display-huge" style={{ marginTop: '40px' }}>
                   Elite Web3 Videography
                 </h1>
                 <p className="body-large text-[var(--text-secondary)] max-w-xl">
@@ -34,6 +42,22 @@ const HeroSection = () => {
                 <p className="heading-3 text-[var(--brand-primary)]">
                   Building trust through pixels, one frame at a time 📸⚡
                 </p>
+              </div>
+
+              {/* Web3 Elements */}
+              <div className="flex flex-wrap gap-6 py-6">
+                <div className="flex items-center gap-3 px-4 py-2" style={{ background: 'var(--bg-overlay)', border: '1px solid var(--border-subtle)', borderRadius: '0px' }}>
+                  <Zap size={20} className="text-[var(--brand-primary)]" />
+                  <span className="body-small text-[var(--text-secondary)]">Lightning Fast Delivery</span>
+                </div>
+                <div className="flex items-center gap-3 px-4 py-2" style={{ background: 'var(--bg-overlay)', border: '1px solid var(--border-subtle)', borderRadius: '0px' }}>
+                  <Shield size={20} className="text-[var(--brand-primary)]" />
+                  <span className="body-small text-[var(--text-secondary)]">Trusted by Web3 Leaders</span>
+                </div>
+                <div className="flex items-center gap-3 px-4 py-2" style={{ background: 'var(--bg-overlay)', border: '1px solid var(--border-subtle)', borderRadius: '0px' }}>
+                  <Globe size={20} className="text-[var(--brand-primary)]" />
+                  <span className="body-small text-[var(--text-secondary)]">Global Event Coverage</span>
+                </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -77,23 +101,22 @@ const HeroSection = () => {
               </div>
             </div>
 
-            {/* Right Side - Spline 3D */}
+            {/* Right Side - Clean Space */}
             <div className="relative">
               <div 
-                className="relative"
+                className="relative flex items-center justify-center h-96"
                 style={{ 
-                  width: "100%", 
-                  height: "700px", 
-                  overflow: "visible"
+                  background: 'var(--bg-overlay)',
+                  border: '1px solid var(--border-subtle)',
+                  borderRadius: '0px'
                 }}
               >
-                <Spline 
-                  scene="https://prod.spline.design/NbVmy6DPLhY-5Lvg/scene.splinecode"
-                  style={{
-                    width: "100%",
-                    height: "100%"
-                  }}
-                />
+                <div className="text-center">
+                  <div className="display-medium text-[var(--brand-primary)] mb-4">Ready to Ship</div>
+                  <p className="body-large text-[var(--text-secondary)]">
+                    Professional Web3 content that absolutely sends it
+                  </p>
+                </div>
               </div>
             </div>
           </div>
