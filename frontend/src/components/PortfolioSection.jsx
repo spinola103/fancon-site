@@ -132,15 +132,15 @@ const PortfolioSection = () => {
   return (
     <section 
       id="portfolio"
-      className="py-24"
+      className="py-32"
       style={{
         background: 'var(--bg-secondary)',
-        padding: '100px 7.6923%'
+        padding: '120px 7.6923%'
       }}
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="display-large mb-6">
+        <div className="text-center mb-20">
+          <h2 className="display-large mb-8">
             Our Portfolio Hits Different 💎
           </h2>
           <p className="body-large text-[var(--text-secondary)] max-w-3xl mx-auto">
