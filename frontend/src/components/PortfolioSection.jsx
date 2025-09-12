@@ -210,7 +210,7 @@ const PortfolioSection = () => {
   const convertDriveUrl = (url) => {
     const fileId = url.match(/\/d\/([a-zA-Z0-9-_]+)/);
     if (fileId) {
-      return `https://drive.google.com/uc?id=${fileId[1]}`;
+      return `https://drive.google.com/uc?export=view&id=${fileId[1]}`;
     }
     return url;
   };
