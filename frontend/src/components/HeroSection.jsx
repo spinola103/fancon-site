@@ -57,19 +57,19 @@ const HeroSection = () => {
               <div className="mt-12">
                 <p className="body-small text-[var(--text-muted)] mb-4">Latest Work Preview</p>
                 <div className="relative max-w-md">
-                  <script src="https://fast.wistia.com/embed/7tjecnceqn.js" async type="module"></script>
+                  <script src="https://fast.wistia.com/embed/6pl76z3gif.js" async type="module"></script>
                   <div 
                     dangerouslySetInnerHTML={{
                       __html: `
                         <style>
-                          wistia-player[media-id='7tjecnceqn']:not(:defined) { 
-                            background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/7tjecnceqn/swatch'); 
+                          wistia-player[media-id='6pl76z3gif']:not(:defined) { 
+                            background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/6pl76z3gif/swatch'); 
                             display: block; 
                             filter: blur(5px); 
                             padding-top:56.25%; 
                           }
                         </style>
-                        <wistia-player media-id="7tjecnceqn" aspect="1.7777777777777777"></wistia-player>
+                        <wistia-player media-id="6pl76z3gif" aspect="1.7777777777777777"></wistia-player>
                       `
                     }}
                   />
