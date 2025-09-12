@@ -201,10 +201,6 @@ const PortfolioSection = () => {
                     }}
                   />
                 </div>
-                <h3 className="heading-3 mb-2">{video.title}</h3>
-                <p className="body-small text-[var(--text-muted)] capitalize">
-                  {video.category.replace('_', ' ')}
-                </p>
               </div>
             ))}
           </div>
