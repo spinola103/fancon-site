@@ -26,7 +26,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img 
-            src="https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/xyttlo1l_FanCon_logo-removebg-preview.png"
+            src="https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/429jgfpj_FanCon_logo__3_-removebg-preview.png"
             alt="FanCon"
             className="h-10 object-contain cursor-pointer"
             onClick={() => scrollToSection('hero')}
