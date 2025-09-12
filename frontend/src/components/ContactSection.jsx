@@ -5,21 +5,21 @@ const ContactSection = () => {
   return (
     <section 
       id="contact"
-      className="py-24"
+      className="py-32"
       style={{
         background: 'var(--bg-primary)',
-        padding: '100px 7.6923%'
+        padding: '120px 7.6923%'
       }}
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="display-large mb-6">
+        <div className="text-center mb-20">
+          <h2 className="display-large mb-8">
             Ready to Create Some Alpha Content? 🚀
           </h2>
           <p className="body-large text-[var(--text-secondary)] max-w-3xl mx-auto">
             Let's discuss your next Web3 event coverage or content needs
           </p>
-          <p className="heading-3 text-[var(--brand-primary)] mt-6">
+          <p className="heading-3 text-[var(--brand-primary)] mt-8">
             DM us and let's make something that absolutely sends it
           </p>
         </div>
