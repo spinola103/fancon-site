@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import ServicesSection from "./ServicesSection";
 import PortfolioSection from "./PortfolioSection";
 import TrustSection from "./TrustSection";
+import PricingSection from "./PricingSection";
 import ClientsSection from "./ClientsSection";
 import ContactSection from "./ContactSection";
 import Footer from "./Footer";
