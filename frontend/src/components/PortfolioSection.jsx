@@ -215,11 +215,11 @@ const PortfolioSection = () => {
           <div>
             {/* Featured Image */}
             {photography.find(photo => photo.featured) && (
-              <div className="mb-12">
-                <h3 className="heading-2 mb-6 text-center">Featured Work</h3>
+              <div className="mb-16">
+                <h3 className="heading-2 mb-8 text-center">Featured Work</h3>
                 <div className="max-w-4xl mx-auto">
                   <div className="group dark-hover dark-transition">
-                    <div className="aspect-video overflow-hidden mb-4">
+                    <div className="aspect-video overflow-hidden mb-6">
                       <img
                         src={photography.find(photo => photo.featured).url}
                         alt={photography.find(photo => photo.featured).title}
@@ -227,9 +227,9 @@ const PortfolioSection = () => {
                         loading="lazy"
                       />
                     </div>
-                    <h4 className="heading-3 mb-2 text-center">{photography.find(photo => photo.featured).title}</h4>
-                    <p className="body-medium text-[var(--text-muted)] text-center capitalize">
-                      Premium Event Coverage
+                    <h4 className="heading-3 mb-3 text-center">{photography.find(photo => photo.featured).title}</h4>
+                    <p className="body-medium text-[var(--text-muted)] text-center">
+                      Premium Web3 Event Photography
                     </p>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ const PortfolioSection = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {photography.filter(photo => !photo.featured).map((photo, index) => (
                 <div key={index} className="group dark-hover dark-transition">
-                  <div className="aspect-square overflow-hidden mb-3">
+                  <div className="aspect-square overflow-hidden mb-4">
                     <img
                       src={photo.url}
                       alt={photo.title}
@@ -252,10 +252,6 @@ const PortfolioSection = () => {
                       }}
                     />
                   </div>
-                  <h4 className="body-medium mb-1">{photo.title}</h4>
-                  <p className="body-small text-[var(--text-muted)] capitalize">
-                    {photo.category}
-                  </p>
                 </div>
               ))}
             </div>
