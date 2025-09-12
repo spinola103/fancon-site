@@ -152,6 +152,14 @@ const ContactSection = () => {
                     >
                       @Pankajtg
                     </a>
+                    <a 
+                      href="https://t.me/rashidxb"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      @rashidxb
+                    </a>
                   </div>
                 </div>
               </div>
