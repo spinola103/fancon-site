@@ -66,144 +66,58 @@ const PortfolioSection = () => {
   ];
 
   const photography = [
-    // Featured showcase image
+    // Featured showcase image - H__B0824-min.JPG
     {
       title: "Elite Event Coverage",
-      url: "https://drive.google.com/uc?export=view&id=1gx1oCDtjeUkEID2fNF369vXhVoXvIzgS",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/myxbsq6l_H__B0824-min.JPG",
       category: "featured",
       featured: true
     },
-    // Uploaded artifacts
+    // Additional uploaded professional photos
     {
-      title: "Professional Event Photography",
+      title: "Professional Photography",
       url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/5px5c4c2_H__B0596-min.JPG",
       category: "event"
     },
     {
-      title: "Conference Moments",
+      title: "Event Coverage",
       url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/zpj8ozn3_H__B0631-min.JPG",
-      category: "conference"
-    },
-    {
-      title: "Networking Sessions",
-      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/hg8tceaq_H__B0825-min.JPG",
-      category: "networking"
-    },
-    {
-      title: "Speaker Highlights",
-      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/496ubnj2_H__B0830-min.JPG",
-      category: "speakers"
-    },
-    {
-      title: "Event Documentation",
-      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/rdl3ysc4_H__B0513-min.JPG",
-      category: "documentation"
-    },
-    // Google Drive images converted to direct URLs
-    {
-      title: "Web3 Summit",
-      url: "https://drive.google.com/uc?export=view&id=1-iw7N5A6vS-6UXBJgQRroCEWNk15dSnK",
-      category: "summit"
-    },
-    {
-      title: "Blockchain Expo",
-      url: "https://drive.google.com/uc?export=view&id=10hXUIvpZxr9l4PhzemM59hOfXGdmWtBR",
-      category: "expo"
-    },
-    {
-      title: "Token Conference",
-      url: "https://drive.google.com/uc?export=view&id=11SDl-m00qjRh0L64tCsOdinIKKL4EIKp",
-      category: "conference"
-    },
-    {
-      title: "DeFi Meetup",
-      url: "https://drive.google.com/uc?export=view&id=13rdN_gjokFRFqyQir9v5r2jIDfHO5Z-_",
-      category: "meetup"
-    },
-    {
-      title: "Event Moments",
-      url: "https://drive.google.com/uc?export=view&id=14k5A8bnxXjvxO--2suTIWheuWTND0XpE",
       category: "event"
     },
     {
-      title: "Networking Hour",
-      url: "https://drive.google.com/uc?export=view&id=15OCrOPdcTMIzfvhJnKuOxr_oF6_ovude",
-      category: "networking"
+      title: "Conference Moments",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/hg8tceaq_H__B0825-min.JPG",
+      category: "event"
     },
     {
-      title: "Panel Discussion",
-      url: "https://drive.google.com/uc?export=view&id=17vrepuMgMIiUK95VEJEE0xjoeLnl-hFQ",
-      category: "panel"
+      title: "Professional Documentation",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/496ubnj2_H__B0830-min.JPG",
+      category: "event"
     },
     {
-      title: "VIP Lounge",
-      url: "https://drive.google.com/uc?export=view&id=18Z7x1Ik02VMncogPrLdKIWcxp2SmD_hJ",
-      category: "vip"
+      title: "Event Photography",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/rdl3ysc4_H__B0513-min.JPG",
+      category: "event"
     },
     {
-      title: "Keynote Session",
-      url: "https://drive.google.com/uc?export=view&id=18_mjiOe4aWoIebYRnQghwY9tLMuXJubT",
-      category: "keynote"
+      title: "Web3 Conference",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/v3w1nvq9_H__B0645-min.JPG",
+      category: "event"
     },
     {
-      title: "Community Gathering",
-      url: "https://drive.google.com/uc?export=view&id=19br3f1Xh8nRbKc6pJ4y4d3gMHGjrc1k5",
-      category: "community"
+      title: "Networking Coverage",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/l75hdrch_H__B0857-min.JPG",
+      category: "event"
     },
     {
-      title: "Awards Ceremony",
-      url: "https://drive.google.com/uc?export=view&id=1AYR-QYEJ1i2IS9XhHueIsiex2H3Q7PlZ",
-      category: "awards"
+      title: "Professional Event Photos",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/k4nd50ds_H__B0825-min.JPG",
+      category: "event"
     },
     {
-      title: "Conference Highlights",
-      url: "https://drive.google.com/uc?export=view&id=1A_JIntzC7cXgP4uCC_q5RFdMsUom5jz5",
-      category: "conference"
-    },
-    {
-      title: "Speaker Portraits",
-      url: "https://drive.google.com/uc?export=view&id=1BQGufxiHspSoPeAKYT1rpUyp-oil3gNX",
-      category: "portraits"
-    },
-    {
-      title: "Workshop Session",
-      url: "https://drive.google.com/uc?export=view&id=1GtaNWsj4lHPLLwjKGHkjAzKbFPG94lMl",
-      category: "workshop"
-    },
-    {
-      title: "After Party",
-      url: "https://drive.google.com/uc?export=view&id=1J61nC0GuIO4MBso0gdJLKshQOzCXqRT5",
-      category: "party"
-    },
-    {
-      title: "Media Interview",
-      url: "https://drive.google.com/uc?export=view&id=1K6M4UqR-OmI0e8mc5HFAdiopKU1Cs0nh",
-      category: "media"
-    },
-    {
-      title: "Demo Day",
-      url: "https://drive.google.com/uc?export=view&id=1NBP6o_Tvj25jBab81pqCxU80KMbC0zQx",
-      category: "demo"
-    },
-    {
-      title: "Product Launch",
-      url: "https://drive.google.com/uc?export=view&id=1OG0fc8NbTJo-3JT4F-gE5Y268GHqR04r",
-      category: "launch"
-    },
-    {
-      title: "Tech Showcase",
-      url: "https://drive.google.com/uc?export=view&id=1PsCNektHUUfW-brxcjbJ8eP5PTADIQDz",
-      category: "tech"
-    },
-    {
-      title: "Strategic Meeting",
-      url: "https://drive.google.com/uc?export=view&id=1QjbJ3MuT7JQVvlg6VLXyk5RTcxEN7dNj",
-      category: "meeting"
-    },
-    {
-      title: "Partnership Announcement",
-      url: "https://drive.google.com/uc?export=view&id=1Qooa5pN3YenOts6mYFSFeTH-yPStFqko",
-      category: "partnership"
+      title: "Conference Documentation",
+      url: "https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/tq65m991_H__B0790-min.JPG",
+      category: "event"
     }
   ];
 
