@@ -28,7 +28,7 @@ const Header = () => {
           <img 
             src="https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/50e1tums_64778a50d3d490290c0d6576_FanCon%20%281%29.svg"
             alt="FanCon"
-            className="h-10 object-contain cursor-pointer"
+            className="h-8 object-contain cursor-pointer"
             onClick={() => scrollToSection('hero')}
           />
         </div>
