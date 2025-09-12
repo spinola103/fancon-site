@@ -23,15 +23,6 @@ const HeroSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
             <div className="space-y-10">
-              {/* Logo */}
-              <div className="mb-8">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_511407e8-29a0-45f6-9b32-47f1ce2c42fa/artifacts/50e1tums_64778a50d3d490290c0d6576_FanCon%20%281%29.svg"
-                  alt="FanCon"
-                  className="h-16 object-contain"
-                />
-              </div>
-
               <div className="space-y-8">
                 <h1 className="display-huge" style={{ marginTop: '40px' }}>
                   Elite Web3 Videography
