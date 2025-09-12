@@ -5,7 +5,7 @@ const PricingSection = () => {
   const packages = [
     {
       name: "The Keynote Capture",
-      price: "$1400",
+      price: "$999",
       currency: "(USD / USDC)",
       icon: Zap,
       description: "Look, you're on stage to make an impact. We get in, capture your entire keynote or panel perfectly, and get you the assets while the event is still buzzing. No fluff, just high-quality content ready to ship.",
@@ -20,7 +20,7 @@ const PricingSection = () => {
     },
     {
       name: "The Founder's Playbook",
-      price: "$2600",
+      price: "$1799",
       currency: "(USD / USDC)",
       icon: Crown,
       description: "Your talk is just the start. This is for founders who need to build a narrative. We'll capture your keynote and then create a library of content that'll fuel your personal brand for the next month.",
