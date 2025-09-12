@@ -32,6 +32,7 @@ const LandingPage = () => {
       <ServicesSection />
       <PortfolioSection />
       <TrustSection />
+      <PricingSection />
       <ClientsSection />
       <ContactSection />
       <Footer />
