@@ -80,18 +80,79 @@ const ContactSection = () => {
                     borderRadius: '0px'
                   }}
                 >
+                  <Mail size={24} className="text-black" />
+                </div>
+                <div>
+                  <p className="body-medium text-[var(--text-muted)]">Business Development</p>
+                  <div className="space-y-1">
+                    <a 
+                      href="mailto:Pankaj@zizzy.in"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      Pankaj@zizzy.in
+                    </a>
+                    <a 
+                      href="mailto:cmo@aim2door.com"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      cmo@aim2door.com
+                    </a>
+                    <a 
+                      href="mailto:ishaan@aim2door.com"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      ishaan@aim2door.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div 
+                  className="w-12 h-12 flex items-center justify-center"
+                  style={{
+                    background: 'var(--brand-primary)',
+                    borderRadius: '0px'
+                  }}
+                >
                   <Send size={24} className="text-black" />
                 </div>
                 <div>
                   <p className="body-medium text-[var(--text-muted)]">Telegram</p>
-                  <a 
-                    href="https://t.me/Swapneel25"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="heading-3 text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition"
-                  >
-                    @Swapneel25
-                  </a>
+                  <div className="space-y-1">
+                    <a 
+                      href="https://t.me/Swapneel25"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      @Swapneel25
+                    </a>
+                    <a 
+                      href="https://t.me/opunicorn1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      @opunicorn1
+                    </a>
+                    <a 
+                      href="https://t.me/vrushang_mrv"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      @vrushang_mrv
+                    </a>
+                    <a 
+                      href="https://t.me/Pankajtg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="body-medium text-[var(--brand-primary)] hover:text-[var(--brand-active)] dark-transition block"
+                    >
+                      @Pankajtg
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
