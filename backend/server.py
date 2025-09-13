@@ -63,6 +63,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# --- Added health endpoint (only this was added) ---
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
+# ----------------------------------------------------
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
