@@ -63,8 +63,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- Added health endpoint (only this was added) ---
-@app.get("/health")
+# --- Health endpoint: responds to both GET and HEAD ---
+@app.get("/health", include_in_schema=False)
+@app.head("/health", include_in_schema=False)
 async def health():
     return {"status": "ok"}
 # ----------------------------------------------------
